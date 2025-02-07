@@ -1,33 +1,21 @@
 
 /**
- * Write a description of class Lab2P1part2 here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * This is my lab2 part 1 second lab. It shows my name, a fun fact, and a hobby all on the same System.out.print 
+ * Author, Nick Williams twilliams027@student.sdccd.edu
+ * Version, 1.0
+ * Since 7 Feb 2025
  */
-public class Lab2P1part2
-{
-    // instance variables - replace the example below with your own
-    private int x;
 
-    /**
-     * Constructor for objects of class Lab2P1part2
-     */
-    public Lab2P1part2()
+public class Lab2P1part2{
+    public static void main(String [] args)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        System.out.println("Hello my name is Nick.\n A fun fact is that I recently adopted a cat.\n A hobby of mine is running."); 
+        
+        /*Should look as follows
+         * Hello my name is Nick.
+         * A fun fact is that I recently adopted a cat. 
+         * A hobby of mine is running  
+         */
+        
     }
 }
